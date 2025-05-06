@@ -1,9 +1,9 @@
 <script lang="ts">
 	import '../app.css';
 	import type { LatLngExpression } from 'leaflet';
-	import Leaflet from '$lib/Leaflet.svelte';
-	import Marker from '$lib/Marker.svelte';
-	import Popup from '$lib/Popup.svelte';
+	import Leaflet from '$lib/leaflet.svelte';
+	import Marker from '$lib/marker.svelte';
+	import Popup from '$lib/popup.svelte';
 
 	interface Location {
 		coordinates: LatLngExpression;
