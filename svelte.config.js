@@ -10,8 +10,8 @@ const config = {
 	kit: {
 		// default options are shown
 		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
+			pages: '.svelte-kit/output',
+			assets: '.svelte-kit/output',
 			fallback: 'index.html',
 			precompress: false,
 			strict: true
